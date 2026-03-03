@@ -32,3 +32,5 @@ Isso inicia o servidor web do Expo com polling de arquivos para garantir que alt
 # Portifolio
 
 Site para mostrar representar meu repositorio
+
+// feito
