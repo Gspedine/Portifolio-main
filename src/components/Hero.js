@@ -9,7 +9,7 @@ const Hero = () => {
   const { theme } = useTheme();
   const styles = getStyles(theme);
   const isWeb = Platform.OS === 'web';
-  const fallback = 'https://via.placeholder.com/400.png?text=Gustavo';
+  const fallback = 'https://via.placeholder.com/300.png?text=Gustavo';
 
   // Animações restantes
   const fadeLeft = useRef(new Animated.Value(0)).current;
