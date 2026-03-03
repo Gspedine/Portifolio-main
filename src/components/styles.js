@@ -1,3 +1,5 @@
+/** @file styles.js - StyleSheet com breakpoints responsivos e suporte a diferentes resolu\u00e7\u00f5es */
+
 import { StyleSheet, Platform, Dimensions } from 'react-native';
 
 const { width } = Dimensions.get('window');

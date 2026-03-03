@@ -1,5 +1,9 @@
+/** @file AboutScreen.js - Tela 'Sobre' com informações profissionais */
+
 import React from 'react';
 import { View, Text, ScrollView } from 'react-native';
+
+// Contexto
 import { useTheme } from '../context/ThemeContext';
 import { getStyles } from '../components/themedStyles';
 

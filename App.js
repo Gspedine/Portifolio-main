@@ -1,6 +1,10 @@
+/** @file App.js - Componente raiz da aplicação. Configura navegação e contexto de tema. */
+
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
+// Contexto e componentes locais
 import { ThemeProvider } from './src/context/ThemeContext';
 import Sidebar from './src/components/Sidebar';
 import HeroScreen from './src/screens/HeroScreen';

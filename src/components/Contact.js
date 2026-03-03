@@ -1,5 +1,9 @@
+/** @file Contact.js - Seção de contato com links diretos (email, telefone, redes) */
+
 import React from 'react';
 import { View, Text, TouchableOpacity, Linking } from 'react-native';
+
+// Contexto e componentes
 import { useTheme } from '../context/ThemeContext';
 import { getStyles } from './themedStyles';
 import FadeInSection from './FadeInSection';

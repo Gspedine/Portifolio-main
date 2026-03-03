@@ -1,3 +1,5 @@
+/** @file themedStyles.js - StileSheet centralizado com elementos responsivos e suporte a temas */
+
 import { StyleSheet, Platform, Dimensions } from 'react-native';
 
 const { width } = Dimensions.get('window');

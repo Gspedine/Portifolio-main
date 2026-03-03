@@ -1,5 +1,9 @@
+/** @file HeroScreen.js - Tela Hero para visualização em mobile/tablet */
+
 import React from 'react';
 import { View, Text, Image } from 'react-native';
+
+// Assets e contexto
 import GustavoImg from '../../assets/Gustavo.jpg';
 import { useTheme } from '../context/ThemeContext';
 import { getStyles } from '../components/themedStyles';

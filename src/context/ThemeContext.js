@@ -1,3 +1,5 @@
+/** @file ThemeContext.js - Contexto global de tema (light/dark) com persistência em localStorage */
+
 import React, { createContext, useContext, useState, useEffect } from 'react';
 // Usa localStorage no navegador em vez de AsyncStorage (React Native)
 

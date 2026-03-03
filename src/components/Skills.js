@@ -1,5 +1,9 @@
+/** @file Skills.js - Grade de habilidades com animação stagered */
+
 import React from 'react';
 import { View, Text } from 'react-native';
+
+// Contexto e componentes
 import { useTheme } from '../context/ThemeContext';
 import { getStyles } from './themedStyles';
 import FadeInSection from './FadeInSection';

@@ -1,5 +1,9 @@
+/** @file Experiences.js - Seção de experiências profissionais com timeline */
+
 import React from 'react';
 import { View, Text } from 'react-native';
+
+// Contexto e componentes
 import { useTheme } from '../context/ThemeContext';
 import { getStyles } from './themedStyles';
 import FadeInSection from './FadeInSection';

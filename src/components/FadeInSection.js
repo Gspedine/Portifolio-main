@@ -1,3 +1,5 @@
+/** @file FadeInSection.js - Componente com animação fade-in ao entrar em viewport */
+
 import React, { useRef, useEffect, useState, useCallback } from 'react';
 import { Animated, Platform } from 'react-native';
 import PropTypes from 'prop-types';

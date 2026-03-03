@@ -1,5 +1,9 @@
+/** @file ProjectsScreen.js - Tela de projetos com fetch de repositórios GitHub */
+
 import React, { useState, useEffect } from 'react';
 import { View, Text, ScrollView, TouchableOpacity, Linking } from 'react-native';
+
+// Contexto
 import { useTheme } from '../context/ThemeContext';
 import { getStyles } from '../components/themedStyles';
 

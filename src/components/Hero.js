@@ -1,6 +1,9 @@
-// src/components/Hero.js
+/** @file Hero.js - Componente principal Hero com animações e CTA */
+
 import React, { useRef, useEffect } from 'react';
 import { View, Text, TouchableOpacity, Image, Linking, Platform, Animated } from 'react-native';
+
+// Contexto e assets
 import GustavoImg from '../../assets/Gustavo.jpg';
 import { useTheme } from '../context/ThemeContext';
 import { getStyles } from './themedStyles';

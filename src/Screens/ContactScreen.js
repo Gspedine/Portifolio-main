@@ -1,6 +1,10 @@
+/** @file ContactScreen.js - Tela de contacto com formulário de email via EmailJS */
+
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, Alert } from 'react-native';
 import emailjs from '@emailjs/browser';
+
+// Contexto
 import { useTheme } from '../context/ThemeContext';
 import { getStyles } from '../components/themedStyles';
 

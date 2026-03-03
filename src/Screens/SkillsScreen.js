@@ -1,5 +1,9 @@
+/** @file SkillsScreen.js - Tela de habilidades com grid de competências */
+
 import React from 'react';
 import { View, Text, ScrollView } from 'react-native';
+
+// Contexto
 import { useTheme } from '../context/ThemeContext';
 import { getStyles } from '../components/themedStyles';
 

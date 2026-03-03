@@ -1,7 +1,11 @@
+/** @file Sidebar.js - Navegação lateral com toggle de tema */
+
 import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
-import { useTheme } from '../context/ThemeContext';
 import { useNavigation } from '@react-navigation/native';
+
+// Contexto
+import { useTheme } from '../context/ThemeContext';
 import { getStyles } from './themedStyles';
 
 const Sidebar = ({ children }) => {

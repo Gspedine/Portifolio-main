@@ -1,3 +1,5 @@
+/** @file StaggeredItem.js - Componente com animação stagered para listas */
+
 import React, { useRef, useEffect, useState, useCallback } from 'react';
 import { Animated, Platform } from 'react-native';
 import PropTypes from 'prop-types';

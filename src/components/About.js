@@ -1,5 +1,9 @@
+/** @file About.js - Seção 'Sobre' com animação de fade-in */
+
 import React from 'react';
 import { View, Text } from 'react-native';
+
+// Contexto e componentes
 import { useTheme } from '../context/ThemeContext';
 import { getStyles } from './themedStyles';
 import FadeInSection from './FadeInSection';
