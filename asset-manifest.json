@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/Portifolio-main/static/js/main.f4f7cdbf.js",
+    "static/js/314.f1a863a9.js": "/Portifolio-main/static/js/314.f1a863a9.js",
+    "static/media/Gustavo.jpg": "/Portifolio-main/static/media/Gustavo.33002752b8d40134ff5a.jpg",
+    "index.html": "/Portifolio-main/index.html",
+    "serve.json": "/Portifolio-main/serve.json",
+    "manifest.json": "/Portifolio-main/manifest.json",
+    "main.f4f7cdbf.js.map": "/Portifolio-main/static/js/main.f4f7cdbf.js.map",
+    "314.f1a863a9.js.map": "/Portifolio-main/static/js/314.f1a863a9.js.map"
+  },
+  "entrypoints": [
+    "static/js/314.f1a863a9.js",
+    "static/js/main.f4f7cdbf.js"
+  ]
+}
