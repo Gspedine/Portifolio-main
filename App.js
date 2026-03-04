@@ -7,12 +7,12 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 // Contexto e componentes locais
 import { ThemeProvider } from './src/context/ThemeContext';
 import Sidebar from './src/components/Sidebar';
-import HeroScreen from './src/screens/HeroScreen';
-import AboutScreen from './src/screens/AboutScreen';
-import ExperiencesScreen from './src/screens/ExperiencesScreen';
-import SkillsScreen from './src/screens/SkillsScreen';
-import ProjectsScreen from './src/screens/ProjectsScreen';
-import ContactScreen from './src/screens/ContactScreen';
+import HeroScreen from './src/Screens/HeroScreen';
+import AboutScreen from './src/Screens/AboutScreen';
+import ExperiencesScreen from './src/Screens/ExperiencesScreen';
+import SkillsScreen from './src/Screens/SkillsScreen';
+import ProjectsScreen from './src/Screens/ProjectsScreen';
+import ContactScreen from './src/Screens/ContactScreen';
 
 const Stack = createNativeStackNavigator();
 
