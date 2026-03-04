@@ -16,10 +16,26 @@ import ContactScreen from './src/screens/ContactScreen';
 
 const Stack = createNativeStackNavigator();
 
+const linking = {
+  prefixes: [
+    typeof window !== 'undefined' ? window.location.origin : '',
+  ],
+  config: {
+    screens: {
+      Hero: '/',
+      About: '/about',
+      Experiences: '/experiences',
+      Skills: '/skills',
+      Projects: '/projects',
+      Contact: '/contact',
+    },
+  },
+};
+
 export default function App() {
   return (
     <ThemeProvider>
-      <NavigationContainer>
+      <NavigationContainer linking={linking}>
         <Sidebar>
           <Stack.Navigator screenOptions={{ headerShown: false }}>
             <Stack.Screen name="Hero" component={HeroScreen} />

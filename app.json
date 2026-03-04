@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "portfolio-app",
+    "slug": "portfolio-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundleAssets": true,
+      "build": {
+        "babel": {
+          "include": ["node_modules"]
+        }
+      }
+    }
+  }
+}

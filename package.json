@@ -2,6 +2,7 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Gspedine.github.io/Portifolio-main",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
